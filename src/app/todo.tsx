@@ -2,7 +2,7 @@
 import { useState } from "react"
 function Todo(){
   const [taskString, setTaskString] = useState('');
-  const handleAddTask = (event)=>{
+  const handleAddTask = (event:any)=>{
     setTaskString(event.target.value)
     
     

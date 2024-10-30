@@ -6,13 +6,13 @@ function Form(){
     name:'',
     age:''
   })
-  const handleChange = (e)=>{
+  const handleChange = (e:any)=>{
     setInfo({
       ...info,
       [e.target.name]: e.target.value
     })
   }
-  const handleSubmit = (e)=>{
+  const handleSubmit = (e:any)=>{
     e.preventDefault()
     const usernameElement = (document.getElementById('userNameOutput') as HTMLElement)
     const nameElement = (document.getElementById('nameOutput') as HTMLElement)

@@ -9,7 +9,7 @@ function Stopwatch(){
   const [isRunning, setIsRunning] = useState(false)
 
   useEffect(()=>{
-    let interval;
+    let interval:any;
     if(isRunning){
       interval = setInterval(()=> setTime(time+1), 10)
     }
