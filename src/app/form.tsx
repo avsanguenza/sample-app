@@ -22,7 +22,7 @@ function Form(){
     nameElement.innerHTML = info.name
     ageElement.innerHTML=info.age
     
-    let form = (document.getElementById('userForm') as HTMLFormElement)
+    const form = (document.getElementById('userForm') as HTMLFormElement)
     form.reset()
   }
 return(
