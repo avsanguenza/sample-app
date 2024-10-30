@@ -11,7 +11,7 @@ function Todo(){
 
   const addTask = ()=>{
     const taskElement = (document.getElementById('taskList') as HTMLElement)
-    let newParagraph = document.createElement('p')
+    const newParagraph = document.createElement('p')
     newParagraph.textContent = taskString
     taskElement.insertAdjacentElement('afterend',newParagraph)
   }

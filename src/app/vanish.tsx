@@ -4,7 +4,7 @@ function Vanish(){
 const [text, setText] = useState(true)
 
 function vanishOrAppear(state : boolean){
-  let x = (document.getElementById('textItem') as HTMLElement)
+  const x = (document.getElementById('textItem') as HTMLElement)
   setText(state ? false: true);
   return (
     x.style.display = state ? "none" : "block"
