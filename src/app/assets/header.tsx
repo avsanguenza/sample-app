@@ -9,7 +9,7 @@ export default function Navi() {
             <span className="sr-only">Your Company</span>
             <img
               alt=""
-              src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+              src="https://tailwindui.com/plus/img/logos/mark.svg?color=zinc&shade=600"
               className="h-8 w-auto"
             />
           </a>

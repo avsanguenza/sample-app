@@ -35,10 +35,10 @@ function Stopwatch(){
   <h1 className=" text-xl font-bold">Stopwatch</h1>
     <p>{h}:{m.toString().padStart(2,"0")}:{s.toString().padStart(2,"0")}:{ms.toString().padStart(2,"0")}</p>
     <div>
-    <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" onClick={startAndStop}>
+    <button className="btn-primary rounded-lg" onClick={startAndStop}>
   {isRunning? "Stop": "Start"}
 </button>  
-<button disabled = {isRunning} className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded disabled:opacity-50" onClick={reset}>
+<button disabled = {isRunning} className="btn-primary rounded-lg disabled:opacity-50" onClick={reset}>
   Reset
 </button>
     </div>
